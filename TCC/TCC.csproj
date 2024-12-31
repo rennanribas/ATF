@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{658E8E33-5383-456A-AA61-58A460DDFE37}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TCC</RootNamespace>
+    <AssemblyName>TCC</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="mysql.data">
+      <HintPath>.\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcessoCliente.cs" />
+    <Compile Include="AcessoContrato.cs" />
+    <Compile Include="AcessoControleFrequencia.cs" />
+    <Compile Include="AcessoEndereco.cs" />
+    <Compile Include="AcessoExercicio.cs" />
+    <Compile Include="AcessoFormaPagamento.cs" />
+    <Compile Include="AcessoFuncaoFuncionario.cs" />
+    <Compile Include="AcessoFuncionario.cs" />
+    <Compile Include="AcessoGruposMusculares.cs" />
+    <Compile Include="AcessoFuncao.cs" />
+    <Compile Include="AcessoLogin.cs" />
+    <Compile Include="AcessoMedidas.cs" />
+    <Compile Include="AcessoPacotes.cs" />
+    <Compile Include="AcessoTreino.cs" />
+    <Compile Include="AcessoTreinoExercicio.cs" />
+    <Compile Include="AcessoTxt.cs" />
+    <Compile Include="ClasseGlobal.cs" />
+    <Compile Include="Conexao.cs" />
+    <Compile Include="ConexaoEndereco.cs" />
+    <Compile Include="Cripto.cs" />
+    <Compile Include="DadosTreino.cs">
+      <DependentUpon>DadosTreino.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DadosTreino.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DadosTreino.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlterarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlterarCliente.Designer.cs">
+      <DependentUpon>FormAlterarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlterarContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlterarContrato.Designer.cs">
+      <DependentUpon>FormAlterarContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlterarExercicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlterarExercicio.Designer.cs">
+      <DependentUpon>FormAlterarExercicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlterarFormaPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlterarFormaPagamento.Designer.cs">
+      <DependentUpon>FormAlterarFormaPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlterarFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlterarFuncionario.Designer.cs">
+      <DependentUpon>FormAlterarFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlterarGrupoMusculares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlterarGrupoMusculares.Designer.cs">
+      <DependentUpon>FormAlterarGrupoMusculares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlterarMedidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlterarMedidas.Designer.cs">
+      <DependentUpon>FormAlterarMedidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlterarPacote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlterarPacote.Designer.cs">
+      <DependentUpon>FormAlterarPacote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlterarTreino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlterarTreino.Designer.cs">
+      <DependentUpon>FormAlterarTreino.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBackup.Designer.cs">
+      <DependentUpon>FormBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBuscarFichaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarFichaCliente.Designer.cs">
+      <DependentUpon>FormBuscarFichaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBuscarFuncaoFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarFuncaoFuncionario.Designer.cs">
+      <DependentUpon>FormBuscarFuncaoFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBuscarMedidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarMedidas.Designer.cs">
+      <DependentUpon>FormBuscarMedidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroCliente.Designer.cs">
+      <DependentUpon>FormCadastroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroContrato.Designer.cs">
+      <DependentUpon>FormCadastroContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroExercicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroExercicio.Designer.cs">
+      <DependentUpon>FormCadastroExercicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroFormaDePagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroFormaDePagamento.Designer.cs">
+      <DependentUpon>FormCadastroFormaDePagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroFuncao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroFuncao.Designer.cs">
+      <DependentUpon>FormCadastroFuncao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroFuncaoFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroFuncaoFuncionario.Designer.cs">
+      <DependentUpon>FormCadastroFuncaoFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroFuncionario.Designer.cs">
+      <DependentUpon>FormCadastroFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroGrupoMusculares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroGrupoMusculares.Designer.cs">
+      <DependentUpon>FormCadastroGrupoMusculares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroMedidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroMedidas.Designer.cs">
+      <DependentUpon>FormCadastroMedidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroPacote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroPacote.Designer.cs">
+      <DependentUpon>FormCadastroPacote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroTreino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroTreino.Designer.cs">
+      <DependentUpon>FormCadastroTreino.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfirmacaoSenhaAdmin.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FormConfirmacaoSenhaAdmin.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FormContratosVencidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormContratosVencidos.Designer.cs">
+      <DependentUpon>FormContratosVencidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGerarCodigoDeBarras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGerarCodigoDeBarras.Designer.cs">
+      <DependentUpon>FormGerarCodigoDeBarras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIP.Designer.cs">
+      <DependentUpon>FormIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRelatorioTreinoExercicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRelatorioTreinoExercicio.Designer.cs">
+      <DependentUpon>FormRelatorioTreinoExercicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelecionarTreino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelecionarTreino.Designer.cs">
+      <DependentUpon>FormSelecionarTreino.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVerificarCodigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVerificarCodigo.Designer.cs">
+      <DependentUpon>FormVerificarCodigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RelatorioTreinoExercicio.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RelatorioTreinoExercicio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="FormAlterarCliente.resx">
+      <DependentUpon>FormAlterarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlterarContrato.resx">
+      <DependentUpon>FormAlterarContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlterarExercicio.resx">
+      <DependentUpon>FormAlterarExercicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlterarFormaPagamento.resx">
+      <DependentUpon>FormAlterarFormaPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlterarFuncionario.resx">
+      <DependentUpon>FormAlterarFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlterarGrupoMusculares.resx">
+      <DependentUpon>FormAlterarGrupoMusculares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlterarMedidas.resx">
+      <DependentUpon>FormAlterarMedidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlterarPacote.resx">
+      <DependentUpon>FormAlterarPacote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlterarTreino.resx">
+      <DependentUpon>FormAlterarTreino.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBackup.resx">
+      <DependentUpon>FormBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBuscarFichaCliente.resx">
+      <DependentUpon>FormBuscarFichaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBuscarFuncaoFuncionario.resx">
+      <DependentUpon>FormBuscarFuncaoFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBuscarMedidas.resx">
+      <DependentUpon>FormBuscarMedidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroCliente.resx">
+      <DependentUpon>FormCadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroContrato.resx">
+      <DependentUpon>FormCadastroContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroExercicio.resx">
+      <DependentUpon>FormCadastroExercicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroFormaDePagamento.resx">
+      <DependentUpon>FormCadastroFormaDePagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroFuncao.resx">
+      <DependentUpon>FormCadastroFuncao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroFuncaoFuncionario.resx">
+      <DependentUpon>FormCadastroFuncaoFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroFuncionario.resx">
+      <DependentUpon>FormCadastroFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroGrupoMusculares.resx">
+      <DependentUpon>FormCadastroGrupoMusculares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroMedidas.resx">
+      <DependentUpon>FormCadastroMedidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroPacote.resx">
+      <DependentUpon>FormCadastroPacote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroTreino.resx">
+      <DependentUpon>FormCadastroTreino.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfirmacaoSenhaAdmin.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FormConfirmacaoSenhaAdmin.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormContratosVencidos.resx">
+      <DependentUpon>FormContratosVencidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGerarCodigoDeBarras.resx">
+      <DependentUpon>FormGerarCodigoDeBarras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIP.resx">
+      <DependentUpon>FormIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRelatorioTreinoExercicio.resx">
+      <DependentUpon>FormRelatorioTreinoExercicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelecionarTreino.resx">
+      <DependentUpon>FormSelecionarTreino.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVerificarCodigo.resx">
+      <DependentUpon>FormVerificarCodigo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RelatorioTreinoExercicio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RelatorioTreinoExercicio.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="DadosTreino.xsc">
+      <DependentUpon>DadosTreino.xsd</DependentUpon>
+    </None>
+    <None Include="DadosTreino.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DadosTreino.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DadosTreino.xss">
+      <DependentUpon>DadosTreino.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo-big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo-small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consultar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contrato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Erreur-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F Pgto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ferramenta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Funcionario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G Musc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Treino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exercicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Limpar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salvar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salvar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Limpar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imprimir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Treino1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Conectar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abrir Ficha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="icones\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Impresso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medidas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacote.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo-de-metal_73738.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

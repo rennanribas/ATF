@@ -1,0 +1,166 @@
+E:\6IA\Projeto 6IA\Software\Software com Todos os Parametros com String\Software\Ponto\bin\Debug\Ponto.exe
+E:\6IA\Projeto 6IA\Software\Software com Todos os Parametros com String\Software\Ponto\bin\Debug\Ponto.pdb
+E:\6IA\Projeto 6IA\Software\Software com Todos os Parametros com String\Software\Ponto\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\6IA\Projeto 6IA\Software\Software com Todos os Parametros com String\Software\Ponto\obj\x86\Debug\Ponto.FormPrincipal.resources
+E:\6IA\Projeto 6IA\Software\Software com Todos os Parametros com String\Software\Ponto\obj\x86\Debug\Ponto.Properties.Resources.resources
+E:\6IA\Projeto 6IA\Software\Software com Todos os Parametros com String\Software\Ponto\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\6IA\Projeto 6IA\Software\Software com Todos os Parametros com String\Software\Ponto\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\6IA\Projeto 6IA\Software\Software com Todos os Parametros com String\Software\Ponto\obj\x86\Debug\Ponto.exe
+E:\6IA\Projeto 6IA\Software\Software com Todos os Parametros com String\Software\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software\Ponto\bin\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software\Ponto\bin\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software\Ponto\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rennan Ribas\Desktop\Software\Ponto\obj\x86\Debug\Ponto.FormPrincipal.resources
+C:\Users\Rennan Ribas\Desktop\Software\Ponto\obj\x86\Debug\Ponto.Properties.Resources.resources
+C:\Users\Rennan Ribas\Desktop\Software\Ponto\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software\Ponto\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.5.1\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.5.1\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.5.1\Ponto\bin\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.5.1\Ponto\bin\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.5.1\Ponto\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.5.1\Ponto\obj\x86\Debug\Ponto.FormPrincipal.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.5.1\Ponto\obj\x86\Debug\Ponto.Properties.Resources.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.5.1\Ponto\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.5.1\Ponto\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.5.1\Ponto\bin\Debug\mysql.data.dll
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.5.1\Ponto\obj\x86\Debug\Ponto.FormIP.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.5.1\Ponto\obj\x86\Debug\Ponto.FormLogin.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.6\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 3.6\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Victor\Desktop\Software ATF 3.7\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Victor\Desktop\Software ATF 3.7\Ponto\obj\x86\Debug\Ponto.pdb
+G:\6IA\Projeto 6IA\Software\Software ATF 3.7\Ponto\obj\x86\Debug\Ponto.exe
+G:\6IA\Projeto 6IA\Software\Software ATF 3.7\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\bin\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\bin\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\bin\Debug\mysql.data.dll
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\obj\x86\Debug\Ponto.FormPrincipal.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\obj\x86\Debug\Ponto.FormIP.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\obj\x86\Debug\Ponto.FormLogin.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\obj\x86\Debug\Ponto.Properties.Resources.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\obj\x86\Debug\GenerateResource.write.1601.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 4.5\Ponto\obj\x86\Debug\GenerateResource.write.1603.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\bin\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\bin\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\bin\Debug\mysql.data.dll
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\obj\x86\Debug\Ponto.FormPrincipal.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\obj\x86\Debug\Ponto.FormIP.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\obj\x86\Debug\Ponto.FormLogin.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\obj\x86\Debug\Ponto.Properties.Resources.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\obj\x86\Debug\GenerateResource.write.1601.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.0\Ponto\obj\x86\Debug\GenerateResource.write.1603.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\obj\x86\Debug\Ponto.FormPrincipal.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\obj\x86\Debug\Ponto.FormIP.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\obj\x86\Debug\Ponto.FormLogin.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\obj\x86\Debug\Ponto.Properties.Resources.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\obj\x86\Debug\GenerateResource.write.1601.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\obj\x86\Debug\GenerateResource.write.1603.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\bin\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\bin\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 5.5\Ponto\bin\Debug\mysql.data.dll
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\bin\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\bin\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\bin\Debug\mysql.data.dll
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\obj\x86\Debug\Ponto.FormPrincipal.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\obj\x86\Debug\Ponto.FormIP.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\obj\x86\Debug\Ponto.FormLogin.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\obj\x86\Debug\Ponto.Properties.Resources.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\obj\x86\Debug\GenerateResource.write.1601.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 6.5\Ponto\obj\x86\Debug\GenerateResource.write.1603.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\bin\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\bin\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\bin\Debug\mysql.data.dll
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\obj\x86\Debug\Ponto.FormPrincipal.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\obj\x86\Debug\Ponto.FormIP.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\obj\x86\Debug\Ponto.FormLogin.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\obj\x86\Debug\Ponto.Properties.Resources.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\obj\x86\Debug\GenerateResource.write.1601.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 9.8\Ponto\obj\x86\Debug\GenerateResource.write.1603.tlog
+G:\Software ATF 9.8\Ponto\obj\x86\Debug\Ponto.exe
+G:\Software ATF 9.8\Ponto\obj\x86\Debug\Ponto.pdb
+G:\Software ATF 9.8\Ponto\bin\Debug\Ponto.exe
+G:\Software ATF 9.8\Ponto\bin\Debug\Ponto.pdb
+G:\Software ATF 9.8\Ponto\bin\Debug\mysql.data.dll
+G:\Software ATF 9.8\Ponto\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Software ATF 9.8\Ponto\obj\x86\Debug\Ponto.FormPrincipal.resources
+G:\Software ATF 9.8\Ponto\obj\x86\Debug\Ponto.FormIP.resources
+G:\Software ATF 9.8\Ponto\obj\x86\Debug\Ponto.FormLogin.resources
+G:\Software ATF 9.8\Ponto\obj\x86\Debug\Ponto.Properties.Resources.resources
+G:\Software ATF 9.8\Ponto\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Software ATF 9.8\Ponto\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Software ATF 9.8\Ponto\obj\x86\Debug\GenerateResource.write.1601.tlog
+G:\Software ATF 9.8\Ponto\obj\x86\Debug\GenerateResource.write.1603.tlog
+C:\Users\Victor\Desktop\Software ATF 10.0\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Victor\Desktop\Software ATF 10.0\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\bin\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\bin\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\bin\Debug\mysql.data.dll
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\obj\x86\Debug\Ponto.FormPrincipal.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\obj\x86\Debug\Ponto.FormIP.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\obj\x86\Debug\Ponto.FormLogin.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\obj\x86\Debug\Ponto.Properties.Resources.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\obj\x86\Debug\GenerateResource.write.1601.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 10.0(Gif exercicio)\Ponto\obj\x86\Debug\GenerateResource.write.1603.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\bin\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\bin\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\bin\Debug\mysql.data.dll
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\obj\x86\Debug\Ponto.FormPrincipal.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\obj\x86\Debug\Ponto.FormIP.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\obj\x86\Debug\Ponto.FormLogin.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\obj\x86\Debug\Ponto.Properties.Resources.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\obj\x86\Debug\GenerateResource.write.1601.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 11.0\Ponto\obj\x86\Debug\GenerateResource.write.1603.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\obj\x86\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\bin\Debug\Ponto.exe
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\bin\Debug\Ponto.pdb
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\bin\Debug\mysql.data.dll
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\obj\x86\Debug\Ponto.FormPrincipal.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\obj\x86\Debug\Ponto.FormIP.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\obj\x86\Debug\Ponto.FormLogin.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\obj\x86\Debug\Ponto.Properties.Resources.resources
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\obj\x86\Debug\GenerateResource.write.1601.tlog
+C:\Users\Rennan Ribas\Desktop\Software ATF 12.0\Ponto\obj\x86\Debug\GenerateResource.write.1603.tlog
+C:\Users\Vict\Desktop\CD - ATF\Software ATF 12.0\Ponto\obj\x86\Debug\Ponto.exe
+C:\Users\Vict\Desktop\CD - ATF\Software ATF 12.0\Ponto\obj\x86\Debug\Ponto.pdb

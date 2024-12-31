@@ -1,0 +1,188 @@
+drop database ATF_bd;
+create database ATF_bd;
+use ATF_bd;
+
+create table cliente
+(
+ID_cli int not null auto_increment,
+codigo_cli longtext not null,
+nome_cli longtext not null,
+end_cli longtext not null,
+num_cli longtext,
+bairro_cli longtext not null,
+cidade_cli longtext not null,
+UF_cli longtext not null,		   
+cep_cli longtext not null,
+pais_cli longtext not null,
+sx_cli longtext,
+estcivil_cli longtext,
+dtnasc_cli longtext not null,
+fone_cli longtext not null,
+email_cli longtext, 
+RG_cli longtext not null,
+CPF_cli longtext not null,
+data_cadastro longtext not null,
+Senha_cli longtext not null,
+codseg_cli longtext,		   
+primary key (ID_cli)		   
+);
+
+
+create table medidas
+(
+ID_med int not null auto_increment,
+ID_cli int not null,
+data_med longtext not null,
+bracodir_med longtext,
+bracoesq_med longtext, 
+antebracodir_med longtext,
+antebracoesq_med longtext,
+peito_med longtext,
+ombro_med longtext,
+costas_med longtext,
+coxadir_med longtext,
+coxaesq_med longtext,
+pantdir_med longtext,
+pantesq_med longtext,
+cintura_med longtext,
+abdomen_med longtext,
+quadril_med longtext,
+altura_med longtext,
+peso_med longtext,
+IMC_med longtext,
+percent_med longtext,
+primary key (ID_med),
+foreign key (ID_cli) references cliente (ID_cli)
+);
+
+
+create table funcionario
+(
+ID_func int not null auto_increment,
+nome_func longtext not null,
+end_func longtext not null,
+num_func longtext,
+bairro_func longtext not null,
+cidade_func longtext not null,
+UF_func longtext not null,		   
+cep_func longtext not null,
+pais_func longtext not null,
+sx_func longtext,
+estcivil_func longtext,
+dtnasc_func longtext not null,
+fone_func longtext not null ,
+email_func longtext,
+RG_func longtext not null,
+CPF_func longtext not null,
+turno_func longtext,
+Senha_func longtext not null,
+ADM_func longtext not null,	   
+primary key (ID_func)
+);
+
+
+create table funcao
+(
+ID_funcao int not null auto_increment,
+nome_funcao longtext not null,
+permissao_funcao longtext not null,
+primary key (ID_funcao)
+);
+
+
+create table funcao_funcionario
+(
+ID_func int not null,
+ID_funcao int not null,
+foreign key (ID_func) references funcionario (ID_func),
+foreign key (ID_funcao) references funcao (ID_funcao)
+);
+
+
+create table forma_pagamento
+(
+ID_fpgto int not null auto_increment,
+tipo_pgto longtext not null,
+primary key (ID_fpgto)
+);
+
+
+create table grupos_musculares
+(
+ID_gmusculares int not null auto_increment,
+nome_gmusculares longtext not null,
+primary key(ID_gmusculares)
+);
+
+
+create table exercicio
+(
+ID_ex int not null auto_increment,
+ID_gmusculares int not null,
+nome_ex longtext not null,
+caminho_gif longtext not null,
+primary key (ID_ex),
+foreign key (ID_gmusculares) references grupos_musculares(ID_gmusculares)
+);
+
+
+create table treino
+(
+ID_treino int not null auto_increment,
+ID_func int not null,
+ID_cli int not null,
+nome_treino longtext not null,
+visivel_treino longtext not null,
+primary key (ID_treino),
+foreign key (ID_func) references funcionario(ID_func),
+foreign key (ID_cli) references cliente(ID_cli)
+);
+
+
+create table treino_exercicio
+(
+ID_treino int not null,
+ID_ex int not null,
+num_repeticoes longtext not null,
+num_series longtext not null,
+foreign key (ID_treino) references treino(ID_treino),
+foreign key (ID_ex) references exercicio(ID_ex)
+);
+
+
+create table controle_frequencia
+(
+ID_frequencia int auto_increment not null,
+ID_treino int not null,
+data_frequencia longtext not null,
+primary key (ID_frequencia),
+foreign key (ID_treino) references treino (ID_treino)
+);
+
+
+create table pacotes
+(
+ID_pacote int auto_increment not null,
+desc_pacote longtext not null,
+valor_pacote longtext not null,
+dias_pacote longtext not null,
+primary key(ID_pacote)
+);
+
+
+create table contrato
+(
+ID_cont int not null auto_increment,
+ID_cli int not null,
+ID_func int not null,
+ID_fpgto int not null,
+ID_pacote int not null,
+data_contrato longtext not null,
+valor_total longtext not null,
+primary key (ID_cont),
+foreign key (ID_cli) references cliente(ID_cli),
+foreign key (ID_func) references funcionario(ID_func),
+foreign key (ID_fpgto) references forma_pagamento(ID_fpgto),
+foreign key (ID_pacote) references pacotes(ID_pacote)
+);
+

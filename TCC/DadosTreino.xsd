@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DadosTreino" targetNamespace="http://tempuri.org/DadosTreino.xsd" xmlns:mstns="http://tempuri.org/DadosTreino.xsd" xmlns="http://tempuri.org/DadosTreino.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DadosTreino" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DadosTreino" msprop:Generator_UserDSName="DadosTreino">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="treino_exercicio" msprop:Generator_TableClassName="treino_exercicioDataTable" msprop:Generator_TableVarName="tabletreino_exercicio" msprop:Generator_TablePropName="treino_exercicio" msprop:Generator_RowDeletingName="treino_exercicioRowDeleting" msprop:Generator_UserTableName="treino_exercicio" msprop:Generator_RowChangingName="treino_exercicioRowChanging" msprop:Generator_RowEvHandlerName="treino_exercicioRowChangeEventHandler" msprop:Generator_RowDeletedName="treino_exercicioRowDeleted" msprop:Generator_RowEvArgName="treino_exercicioRowChangeEvent" msprop:Generator_RowChangedName="treino_exercicioRowChanged" msprop:Generator_RowClassName="treino_exercicioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nome_ex" msprop:Generator_ColumnVarNameInTable="columnnome_ex" msprop:Generator_ColumnPropNameInRow="nome_ex" msprop:Generator_ColumnPropNameInTable="nome_exColumn" msprop:Generator_UserColumnName="nome_ex" type="xs:string" minOccurs="0" />
+              <xs:element name="num_repeticoes" msprop:Generator_ColumnVarNameInTable="columnnum_repeticoes" msprop:Generator_ColumnPropNameInRow="num_repeticoes" msprop:Generator_ColumnPropNameInTable="num_repeticoesColumn" msprop:Generator_UserColumnName="num_repeticoes" type="xs:int" minOccurs="0" />
+              <xs:element name="num_series" msprop:Generator_ColumnVarNameInTable="columnnum_series" msprop:Generator_ColumnPropNameInRow="num_series" msprop:Generator_ColumnPropNameInTable="num_seriesColumn" msprop:Generator_UserColumnName="num_series" type="xs:int" minOccurs="0" />
+              <xs:element name="nome_gmusculares" msprop:Generator_ColumnVarNameInTable="columnnome_gmusculares" msprop:Generator_ColumnPropNameInRow="nome_gmusculares" msprop:Generator_ColumnPropNameInTable="nome_gmuscularesColumn" msprop:Generator_UserColumnName="nome_gmusculares" type="xs:string" minOccurs="0" />
+              <xs:element name="id_treino_ex" msprop:Generator_ColumnVarNameInTable="columnid_treino_ex" msprop:Generator_ColumnPropNameInRow="id_treino_ex" msprop:Generator_ColumnPropNameInTable="id_treino_exColumn" msprop:Generator_UserColumnName="id_treino_ex" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dados_cliente" msprop:Generator_TableClassName="dados_clienteDataTable" msprop:Generator_TableVarName="tabledados_cliente" msprop:Generator_TablePropName="dados_cliente" msprop:Generator_RowDeletingName="dados_clienteRowDeleting" msprop:Generator_UserTableName="dados_cliente" msprop:Generator_RowChangingName="dados_clienteRowChanging" msprop:Generator_RowEvHandlerName="dados_clienteRowChangeEventHandler" msprop:Generator_RowDeletedName="dados_clienteRowDeleted" msprop:Generator_RowEvArgName="dados_clienteRowChangeEvent" msprop:Generator_RowChangedName="dados_clienteRowChanged" msprop:Generator_RowClassName="dados_clienteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nome_cliente" msprop:Generator_ColumnVarNameInTable="columnnome_cliente" msprop:Generator_ColumnPropNameInRow="nome_cliente" msprop:Generator_ColumnPropNameInTable="nome_clienteColumn" msprop:Generator_UserColumnName="nome_cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="nome_treino_cliente" msprop:Generator_ColumnVarNameInTable="columnnome_treino_cliente" msprop:Generator_ColumnPropNameInRow="nome_treino_cliente" msprop:Generator_ColumnPropNameInTable="nome_treino_clienteColumn" msprop:Generator_UserColumnName="nome_treino_cliente" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
